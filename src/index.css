@@ -1,0 +1,49 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  /* color-scheme: light dark; */
+  /* color: rgba(255, 255, 255, 0.87); */
+
+  /* background-color: #242424; */
+  /* Main Colors */
+  --main: #f69c84; /* Soft coral, good for buttons, highlights, main accents. */
+  --sec: #e6c693; /* Warm beige, nice for backgrounds, secondary buttons, hover effects */
+  --hunter: #33673b; /* Deep green, perfect for headers, footers, big elements */
+  --m-black: #19231a; /* Almost black with green tone, great for text color or main background if you want dark mode. */
+  --brown: #523f38; /* Deep brown, could be borders, card backgrounds, or subtle text. */
+  --violet: #49416d; /* Moody violet, cool for links, badges, or secondary accents. */
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+}
+
+#root {
+  height: 100%;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
